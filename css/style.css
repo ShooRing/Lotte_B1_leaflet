@@ -7,30 +7,30 @@
 /* tab-menu--fixed [S] */
 
   nav{
-    position:-webkit-sticky;
-    position:sticky;
+    
+    
     top:0;
 }
 .food .Tab {
   width: 100%;
-  display: flex;
+  
   align-items: center;
-  justify-content: center;
+  justify-
 
 }
 
 .food .Tab li {
   width: 20%;
   background: #000;
-  font-size: 18px;
-  color: #fff;
-  height: 80px;
-  text-align: center;
-  line-height: 15px;
+  font-size: 3.6000vw;
+  
+  height: 16.0000vw;
+  
+  line-height: 3.0000vw;
   cursor: pointer;
-  display: flex;
+  
   align-items: center;
-  justify-content: center;
+  justify-
   flex-direction: column;
 
 }
@@ -78,31 +78,31 @@
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
 img{width: 100%;}
-.map {margin: auto; text-align: center;
-  display: flex;
-  padding: 100px 10px;
+.map {margin: auto; 
+  
+  padding: 20.0000vw 2.0000vw;
   flex-direction: column;
   align-items: center;
-  gap: 70px;
+  gap: 14.0000vw;
   align-self: stretch;
   
 }
 .mapSvg {width: 100%;}
 
 .mapTxt{
-  color: #000;
-text-align: center;
-font-family: "Gowun Dodum";
-font-size: 20px;
+  
+
+
+font-size: 4.0000vw;
 font-style: normal;
-font-weight: 400;
+
 line-height: normal;
 }
-.mapTxt p{-webkit-text-stroke-width: 2.5px;
-  -webkit-text-stroke-color: #000;
-  font-size: 40px;
-  letter-spacing: 1.781px;}
-.mapTxt span{letter-spacing: 1.039px;}
+.mapTxt p{-webkit-text-stroke-width: 0.5000vw;
+  -webkit-text-stroke-
+  font-size: 8.0000vw;
+  letter-spacing: 0.3562vw;}
+.mapTxt span{letter-spacing: 0.2078vw;}
 
 
 
@@ -110,114 +110,114 @@ line-height: normal;
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
 /* ------------------------------------------------ */
-.food .listBox {text-align: center;}
+.food .listBox {}
 
 .food .listBox li {
-  display: none;
+  
 }
 .food .listBox li.on {
-  display: block;
+  
 }
 
 .top{
-  display: flex;
-  padding: 60px 0px;
+  
+  padding: 12.0000vw 0.0000vw;
   flex-direction: column;
   align-items: center;
-  gap: 35px;
+  gap: 7.0000vw;
   align-self: stretch;
-  color: #FFF;
+  
 }
-.food .listBox .list {width: 95vw; margin: auto; padding-bottom: 100px;}
-.food .listBox li .topTxt p{margin-bottom: 50px;}
+.food .listBox .list {width: 95vw; margin: auto; padding-bottom: 20.0000vw;}
+.food .listBox li .topTxt p{margin-bottom: 10.0000vw;}
 .food dl dt {
-  display: flex;
+  
   align-items: center;
-  justify-content: space-between;
+  justify-
   margin: 6vw 0;
 }
-.food .listBox .list dl dt .img {width: 50vw; padding-right: 5vw; box-sizing: border-box;
-  display: flex;
+.food .listBox .list dl dt .img {width: 50vw; padding-right: 5vw; 
+  
   align-items: center;
-  justify-content: center;}
+  justify-}
 .food .listBox .list dl dt div{width: 50vw; }
 
 .food .listBox li .list .name {
-  border-bottom: 1px dashed #919191;
-  display: flex;
+  border-bottom: 0.2000vw dashed #919191;
+  
   align-items: flex-start;
-  gap: 10px;
+  gap: 2.0000vw;
   align-self: stretch;
-  color: #333;
-  font-family: "Gowun Dodum";
-  font-size: 20px;
+  
+  
+  font-size: 4.0000vw;
   font-style: normal;
-  font-weight: 600;
-  line-height: 25px;
-  padding-bottom: 10px;
+  
+  line-height: 5.0000vw;
+  padding-bottom: 2.0000vw;
   }
   
   
   
   .food .listBox li .list .desc {
-  text-align: left;
-  font-size: 16px;}
+  
+  font-size: 3.2000vw;}
 
   .food .listBox li .list .num {
-    color: #fff;
-    text-align: center;
-    font-family: Optima Medium;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 23px;
-    width: 23px;
-    height: 23px;
-    border-radius: 50px;
+    
+    
+    
+    font-size: 3.2000vw;
+    
+    line-height: 4.6000vw;
+    width: 4.6000vw;
+    height: 4.6000vw;
+    border-radius: 10.0000vw;
     counter-reset: number 0;
     }
  
 /* lepicerie------------------------------------------ */
 .listBox .lepicerie.top{background: linear-gradient(180deg, #122E16 39.33%, #FFF 99.87%);}
 .lepicerie .num { background: #122E16;}
-.lepicerie .service .serTitle {font-size: 33px; margin: 30px auto; padding-top: 50px; font-weight: 600;}
-.lepicerie .service img {width: 46vw; padding-right: 5vw; box-sizing: border-box;}
-.lepicerie .topTxt span { color: #122E16; font-weight: 600;}
+.lepicerie .service .serTitle {font-size: 6.6000vw; margin: 6.0000vw auto; padding-top: 10.0000vw; }
+.lepicerie .service img {width: 46vw; padding-right: 5vw; }
+.lepicerie .topTxt span {  }
 /* dining------------------------------------------ */
 .food .listBox li .dining.top{
   background: linear-gradient(180deg, #EA5728 39.33%, #FFF 99.87%);
   }
 .dining .num { background: #EA5728;}
-.dining .topTxt span { color: #EA5728; font-weight: 600;}
+.dining .topTxt span {  }
 
 /* Bakery Dessert------------------------------------------------ */
 .food .listBox li .BakD.top{
   background: linear-gradient(180deg, #8C86BF 39.33%, #FFF 99.87%);
   }
 .BakD .num { background: #8C86BF;}
-.BakD .topTxt span { color: #8C86BF; font-weight: 600;}
+.BakD .topTxt span {  }
 /* Deli------------------------------------------------ */
 .food .listBox li .Del.top{
   background: linear-gradient(180deg, #87B9CA 39.33%, #FFF 99.87%);
   }
 .Del .num { background: #87B9CA ;}
-.Del .topTxt span { color: #87B9CA; font-weight: 600;}
+.Del .topTxt span {  }
 /* L Vino------------------------------------------------ */
 
 .food .listBox li .Lvino.top{
   background: 
   linear-gradient(180deg, rgba(138, 75, 82, 1) 20%, rgba(138, 75, 82, 0) 50%),
   url(../images/lvino_bg.jpg);
-background-repeat: no-repeat;
+
 background-position: 38% -10%;
-background-size: 190vw;
+
 padding-bottom: 95vw;
 }
 
 
-.Lvino .topTxt span {  font-weight: 600;}
+.Lvino .topTxt span {  }
 
-.Lvino.bottom {display: flex;
-  justify-content: center;
+.Lvino.bottom {
+  justify-
   align-items: center;
   flex-shrink: 0;
   align-self: stretch;
@@ -228,22 +228,22 @@ padding-bottom: 95vw;
 
  
 .topbtn {
-  position: fixed;
+  
   right: 5%;
-  bottom: 50px;
-  width: 80px;
-  height: 80px;
+  bottom: 10.0000vw;
+  width: 16.0000vw;
+  height: 16.0000vw;
   border-radius: 50%;
-  text-align: center;
-  color: #fff;
+  
+  
   background: #121212;
-  display: none;
+  
   cursor: pointer;
  
 }
 
 .topbtn.on {
-  display: block;
+  
   animation: opacity 0.5s linear;
 }
 @keyframes opacity {
@@ -252,21 +252,21 @@ padding-bottom: 95vw;
 }
 
 .topbtn i {
-  font-size: 35px;
-  line-height: 80px;
+  font-size: 7.0000vw;
+  line-height: 16.0000vw;
   animation: bounce 1s infinite linear;
 }
 
   @keyframes bounce {
     0% {
-      transform: translateY(5px);
+      transform: translateY(1.0000vw);
     }
 
     50% {
-      transform: translateY(-5px);
+      transform: translateY(-1.0000vw);
     }
 
     100% {
-      transform: translateY(5px);
+      transform: translateY(1.0000vw);
     }
   } 
