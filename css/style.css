@@ -90,14 +90,14 @@ img{width: 100%;}
   color: #000;
 text-align: center;
 font-family: "Gowun Dodum";
-font-size: 25px;
+font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 .mapTxt p{-webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: #000;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 1.781px;}
 .mapTxt span{letter-spacing: 1.039px;}
 
