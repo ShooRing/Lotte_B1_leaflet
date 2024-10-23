@@ -1,1 +1,2 @@
-![image](https://github.com/user-attachments/assets/85365d90-71ca-4b5a-abbf-c166373caf77)﻿# Lotte_B1_leaflet
+﻿# Lotte_B1_leaflet
+![image](https://github.com/user-attachments/assets/3b327d67-ac63-4195-bed7-c17165d2d519)
